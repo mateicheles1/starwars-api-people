@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+}
+#container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.people--content {
+  background-color: orangered;
+  padding: .2rem;
+  margin-bottom: .8rem;
+  text-align: center;
+  flex-basis: 33%;
+}
+
+.favourite--btn {
+  justify-content: center;
+  position: relative;
+  bottom: 5rem;
+  left: 6rem;
+}
